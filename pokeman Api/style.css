@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+body{
+    background-color: purple;
+}
+
+.card{
+    margin: 7px;
+    
+}
+.row{
+    display :flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+body
+
+
+.card-body{
+    display :flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center; 
+}
+
+
+
+button{
+    padding:7px 15px;
+    color:white;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+button.active, button:hover{
+    background-color:gray;
+}
+.index_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    height: 180px;
+    width: 60px;
+}
